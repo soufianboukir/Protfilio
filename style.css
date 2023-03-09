@@ -1,0 +1,657 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #0a192f; 
+    z-index: -1;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header .title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: 550;
+    color: white;
+    margin-left: 70px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+header .links{
+    margin-right:70px;
+    margin-top: 30px;
+}
+header .links span{
+    color: rgb(183, 255, 183);
+}
+header button{
+    font-family: Consolas;
+    width: 86px;
+    height: 38px;
+    border: solid 1px rgb(183, 255, 183);
+    background-color: #0a192f;
+    color: rgb(183, 255, 183);
+    border-radius: 4px;
+    font-size: 16px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: #112845;
+    transform: scale(1);
+}
+header .links a{
+    text-decoration: none;
+    color: #a5e0ff;
+    font-size: 15px;
+    font-family: Consolas;
+    margin-right: 25px;
+    transition: 0.3s ease;
+}
+header .links a:hover{
+    color: rgb(183, 255, 183);
+    transform: scale(1);
+}
+/* container of the page */
+footer{
+    margin-top: 70px;
+    margin-left: 220px;
+}
+footer .home span{
+    font-family: Consolas;
+    color: rgb(190, 233, 190);
+    font-size: 18px;
+    text-decoration: hidden;
+}
+footer .home #name{
+    font-size: 70px;
+    color: #cde1ff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+footer .home #des{
+    font-size: 63px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #9caac0;
+}
+footer .home p{
+    color: rgb(140, 197, 220);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+footer .home button{
+    background-color: #0a192f;
+    color: rgb(176, 219, 176);
+    width: 200px;
+    height: 46px;
+    font-family: Consolas;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(179, 217, 179);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+footer .home button:hover{
+    background-color: #112845;
+}
+.icons .verticale-line{
+    border-left: 1.5px solid rgb(112, 160, 199);
+    height: 110px;
+    left: 48px;
+    top: 580px;
+    position: absolute;
+    position: fixed;
+}
+.icons i{
+    color: rgb(112, 160, 199);
+    font-size: 24px;
+    display: table-cell;
+    display: block;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+#git{
+    position: absolute;
+    top: 380px;
+    left: 40px;
+    bottom: 100px;
+    position: fixed;
+}
+#insta{
+    position: absolute;
+    top: 430px;
+    left: 40px;
+    position: fixed;
+}
+#fb{
+    position: absolute;
+    top: 480px;
+    position: fixed;
+    left: 40px;
+}
+#link{
+    position: absolute;
+    top: 530px;
+    position: fixed;
+    left: 40px;
+}
+.icons i:hover{
+    color: rgb(190, 233, 190);
+}
+.email .verticale-line2{
+    border-left: 1.5px solid rgb(112, 160, 199);
+    height: 110px;
+    right: 48px;
+    top: 580px;
+    position: absolute;
+    position: fixed;
+}
+.email h3{
+    color: rgb(112, 160, 199);
+    font-family: Consolas;
+    writing-mode: vertical-rl;
+    position: absolute;
+    position: fixed;
+    top: 330px;
+    font-size: 18px;
+    right: 20px;
+    font-weight: 100;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.email h3:hover{
+    color: rgb(183, 255, 183);
+    transform: scale(1.01);
+}
+/*about me page */
+footer #about{
+    margin-top: 230px;
+}
+footer #about h1{
+    font-size: 34px;
+    color: rgb(0, 229, 229);
+    font-family: sans-serif;
+}
+footer #about span{
+    font-family: Consolas;
+    color: rgb(152, 255, 152);
+    font-size: 22px;
+    font-weight: 200;
+}
+footer #about a{
+    font-family: Consolas;
+    color: rgb(183, 255, 183);
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+}
+footer #about #mine-image{
+    color: white;
+    float: right;
+    border-radius: 10px;
+    right: 250px;
+    filter: opacity(0.7) drop-shadow(0 0 0 rgb(9, 7, 43)); 
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 12px 12px 12px rgb(185, 207, 255);
+    transition: 0.6s ease;
+    top: 950px;
+}
+footer #about #mine-image:hover{
+    transform: scale(1.01);
+    filter: opacity(1);
+}
+footer #about p{
+    color: rgb(140, 197, 220);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer #about p span{
+    color: rgb(152, 255, 152);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer #about p a{
+    color: rgb(152, 255, 152);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* modified the scroll bar */
+::-webkit-scrollbar{
+    background-color: #0a192f;
+}
+
+  /* Custom scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #192d4a;
+    border-radius: 10px;
+    height: 100px;
+}
+/* skills page */
+footer #skills h1{
+    font-size: 34px;
+    color: rgb(0, 229, 229);
+    font-family: sans-serif;
+}
+footer #skills span{
+    font-family: Consolas;
+    color: rgb(152, 255, 152);
+    font-size: 22px;
+    font-weight: 200;
+}
+.skills-container{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+footer .front-end{
+    width: 260px;
+    height: auto;
+    background-color: #10294f;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    box-shadow: 2px 2px 2px white; 
+    margin-right: 50px; 
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+footer .front-end:hover{
+    transform: scale(1);
+    background-color: #0e2440;
+}
+footer .exp-sm{
+    width: 260px;
+    height: auto;
+    background-color: #10294f;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    box-shadow: 2px 2px 2px white;  
+    margin-right: 50px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+footer .exp-sm:hover{
+    transform: scale(1);
+    background-color: #0e2440;
+}
+footer .back-end{
+    width: 260px;
+    height: auto;
+    background-color: #10294f;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    box-shadow: 2px 2px 2px white;  
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+footer .back-end:hover{
+    transform: scale(1);
+    background-color: #0e2440;
+}
+footer .front-end h3{
+    font-family: Consolas;
+    color: rgb(98, 255, 166);
+    font-size: 20px;
+    text-align: center;
+}
+footer .front-end p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+footer .back-end h3{
+    font-family: Consolas;
+    color: rgb(98, 255, 166);
+    font-size: 20px;
+    text-align: center;
+}
+footer .back-end p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+footer .exp-sm h3{
+    font-family: Consolas;
+    color: rgb(98, 255, 166);
+    font-size: 20px;
+    text-align: center;
+}
+footer .exp-sm p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+footer .networking-ex{
+    background-color: #10294f;
+    width: 700px;
+    height: auto;
+    box-shadow: 2px 2px 2px white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+footer .networking-ex:hover{
+    background-color: #0e2440;
+}
+footer .container2{
+    margin-top: 40px;
+    margin-left: 155px;
+    margin-bottom: 20px;
+}
+footer .networking-ex h3{
+    font-family: Consolas;
+    color: rgb(98, 255, 166);
+    font-size: 20px;
+    text-align: center;
+}
+footer .networking-ex p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+footer #work h1{
+    font-size: 34px;
+    color: rgb(0, 229, 229);
+    font-family: sans-serif;
+}
+footer #work span{
+    font-family: Consolas;
+    color: rgb(152, 255, 152);
+    font-size: 22px;
+    font-weight: 200;
+}
+footer #work .workcontainer img{
+    width:650px;
+    height: 350px;
+    border-radius: 10px;
+    filter: brightness(0.4);
+    cursor: pointer;
+    transition: 0.7s ease;
+    box-shadow: 0px 0px 10px rgb(188, 188, 188);
+    z-index: 0;
+}
+footer #work .workcontainer img:hover{
+    filter: brightness(1);
+}
+footer #work .workcontainer h4{
+    padding-left: 154px;
+    color: #a5e0ff;
+    font-size: 22px;
+    float: right;
+    padding-right: 215px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer #work .workcontainer .des{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+    position: absolute;
+    right: 215px;
+    top: 2340px;
+    font-size: 17.3px;
+    background-color: #173155;
+    color: #a5e0ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer #work .workcontainer2{
+    margin-top: 80px;
+}
+footer #work .workcontainer2 img{
+    width:650px;
+    float: right;
+    margin-right: 214px;
+    height: 350px;
+    border-radius: 10px;
+    filter: brightness(0.4);
+    cursor: pointer;
+    transition: 0.7s ease;
+    box-shadow: 0px 0px 10px rgb(188, 188, 188);
+    z-index: 0;
+}
+footer #work .workcontainer2 img:hover{
+    filter: brightness(1);
+}
+footer .workcontainer2 h4{
+    color: #a5e0ff;
+    font-size: 22px;
+    float: left;
+    padding-top: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.des2{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+    right: 808px;
+    top: 2790px;
+    position: absolute;
+    font-size: 17.3px;
+    background-color: #173155;
+    color: #a5e0ff;
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer #contact{
+    margin-top: 550px;
+}
+footer #contact h1{
+    font-size: 34px;
+    color: rgb(0, 229, 229);
+    font-family: sans-serif;
+}
+footer #contact span{
+    font-family: Consolas;
+    color: rgb(152, 255, 152);
+    font-size: 22px;
+    font-weight: 200;
+}
+footer #contact h4{
+    color: #a5e0ff;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 357px;
+}
+footer #contact p{
+    color: #9caac0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -180px;
+}
+footer #contact label{
+    padding-left: 413px;
+    color: aliceblue;
+    font-family: Candara;
+}
+footer #contact input{
+    background-color: #0e2440;
+    width: 230px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0;
+    color: #a5e0ff;
+    padding: 3px 10px;
+    margin-left: 413px;
+    font-family: Candara;
+    font-size: 17px;
+    outline-color: 1px solid #a5e0ff;
+}
+footer #contact textarea{
+    background-color: #0e2440;
+    border-radius: 20px;
+    height: 100px;
+    margin-left: 377px;
+    border: 0;
+    color: white;
+    padding: 2px 10px;
+    outline-color: 1px solid #a5e0ff;
+    font-family: Candara;
+    font-size: 19px;
+    width: 300px;
+    resize: none;
+}
+footer #contact button{
+    background-color: #0a192f;
+    color: rgb(176, 219, 176);
+    width: 200px;
+    height: 46px;
+    font-family: Consolas;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: solid 1px rgb(179, 217, 179);
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-left: 437px;
+}
+footer #contact button:hover{
+    background-color: #112845;
+}
+footer .developer{
+    margin-top: 100px;
+    margin-left: 375px;
+}
+footer .developer h5{
+    color: #a5e0ff;
+    font-family: Consolas;
+    font-size: 15px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+footer .developer :hover{
+    color: rgb(153, 227, 153);
+}
+/* media : maxwidth====720px====*/
+#links2{
+    width: 480px;
+    height: 500px;
+    background-color: #173155;
+    text-align: center;
+    padding-top: 250px;
+}
+#links2 a{
+    text-decoration: none;
+    color: #a5e0ff;
+    font-size: 23px;
+    font-family: Consolas;
+}
+@media (max-width: 720px) {
+    body{
+        width: 720px;
+    }
+    header .links{
+        display: none;
+    }
+    .fixed-items{
+        display: none;
+    }
+    header .title h2{
+        margin-left: -20px;
+    }
+    .home{
+        margin-left: -170px;
+        margin-top: -30px;
+    }
+    footer .home #name{
+        font-size: 33px;
+    }
+    footer .home #des{
+        font-size: 31px;
+    }
+    footer .home p{
+        font-size: 19px;
+    }
+    footer #about{
+        margin-left: -170px;
+        margin-right: 230px;
+    }
+    footer #about img{
+        display: none;
+    }
+    footer #skills{
+        margin-left: -170px;
+    }
+    footer .skills-container {
+        display: block;
+    }
+    footer .exp-sm{
+        margin-top: 20px;
+    }
+    footer .back-end{
+        margin-top: 20px;
+    }
+    .container2 .networking-ex{
+        margin-left: -200px;
+        width: 457px;
+    }
+    footer #work{
+        margin-left: -170px;
+    }
+    footer #work .workcontainer #img1{
+        height: 260px;
+        width: 400px;
+        filter: brightness(0.2);
+    }
+    footer #work .des{
+        margin-top: 980px;
+        left: 39px;
+    }
+    footer #work h4{
+        display: none;
+    }
+    footer #work .workcontainer2 #img2{
+        width: 400px;
+        height: 260px;
+        position: absolute;
+        z-index: -1;
+        filter: brightness(0.2);
+        cursor: pointer;
+    }
+    footer .workcontainer2 .des2{
+        left: 39px;
+        display: block;
+        top: 3666px;
+        position: absolute;
+    }
+    footer #contact{
+        margin-left: -170px;
+    }
+    footer #contact h4{
+        margin-left: 30px;
+    }
+    footer #contact #para{
+        font-size: 14px;
+        margin-left: -300px;
+    }
+    footer #contact label{
+        margin-left: -360px;
+    }
+    footer #contact textarea{
+        margin-left: 54px;
+    }
+    footer #contact input{
+        margin-left: 54px;
+    }
+    footer #contact button{
+        margin-left: 100px;
+    }
+    footer .developer{
+        margin-left: -130px;
+    }
+}   
